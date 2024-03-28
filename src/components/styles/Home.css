@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Pacifico&family=Permanent+Marker&display=swap');
+
+.home-page{
+    
+    background-color: #FFFFFF;
+   }
+.nav-main{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+cursor: pointer;
+font-size: 20px;
+   }
+.nav-head{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+font-weight: 900;
+font-family: "Pacifico";
+color:#505357 ;
+}
+.nav-head:hover{
+    color: rgb(128, 10, 10);
+    font-style: italic;
+}
+.nav-ul{
+display: flex;
+gap: 100px;
+color: rgb(128, 10, 10);
+}
+.nav-ul li{
+    list-style-type: none;
+    font-family: "Pacifico";
+}
+.nav-ul li:hover{
+    font-weight: 900;
+   
+    color:#505357 ;
+}
+.search-icon{
+    height: 30px;
+    width: 30px;
+}
+.grid-div{
+   display: flex;
+   justify-content: space-around;
+     
+}
+.note-img{
+ 
+   height: 420px;
+   width: 420px;
+   margin-top: 20px;
+   
+}    
+.planner-ul{
+margin-top: 80px;
+background-color: #505357;
+border-radius: 15px;
+padding: 15px;
+}
+.planner-ul li{
+    list-style-type: none;
+    padding: 10px;
+    font-family: "Merienda";
+    font-weight: 900;
+    color:rgb(250, 205, 146);
+    margin-top: 10px
+}
